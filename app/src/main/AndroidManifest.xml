@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ArtGallery2"
+        tools:targetApi="34">
+        <activity
+            android:name=".KaryaPutriHijau"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaBerburu"
+            android:exported="false" />
+        <activity
+            android:name=".BiografiBasuki"
+            android:exported="false" />
+        <activity
+            android:name=".BiografiDelsy"
+            android:exported="false" />
+        <activity
+            android:name=".BiografiBarli"
+            android:exported="false" />
+        <activity
+            android:name=".BiografiAffandi"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaDelsy"
+            android:exported="false" />
+        <activity
+            android:name=".coba"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaPresiden"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaDiponegoro"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaKuda"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaPotretDewi"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaBasuki"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaHilir"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaPasar"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaGadis"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaMengaso"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaBarli"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaScenery2"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaMerapi2"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaJateng"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaPerahuMatahari"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaAyamTarung"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaKebunCengkeh"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaIbuku"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaAffandi"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaHamparan"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaGunung"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaScenery"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaMerapi"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaPemandanganJaTeng"
+            android:exported="false" />
+        <activity
+            android:name=".BiografiAbdullah"
+            android:exported="false" />
+        <activity
+            android:name=".KaryaAbdullah"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SenimanActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
